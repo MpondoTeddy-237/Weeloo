@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F041D122DBE7699009EF9BD /* UserPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F041D112DBE7699009EF9BD /* UserPostView.swift */; };
+		9F041D142DBE76E7009EF9BD /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F041D132DBE76E7009EF9BD /* Setting.swift */; };
+		9F041D162DBE76FF009EF9BD /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F041D152DBE76FF009EF9BD /* SettingView.swift */; };
+		9F21CE102DBA0B9C00361ED6 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21CE0F2DBA0B9C00361ED6 /* HomePageViewModel.swift */; };
+		9F21CE142DBA6A2100361ED6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21CE132DBA6A2100361ED6 /* LoginView.swift */; };
+		9F21CE162DBA85A500361ED6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21CE152DBA85A500361ED6 /* ForgotPasswordView.swift */; };
+		9F4F518F2DC0C9EE00932C0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F518E2DC0C9EE00932C0A /* HomeView.swift */; };
+		9F5005972DC6769600A1FB84 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5005962DC6769600A1FB84 /* GoogleGenerativeAI */; };
+		9F5602B32DBDE12900A860B1 /* MorphingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5602B22DBDE12900A860B1 /* MorphingSymbolView.swift */; };
+		9F5C8E3A2DBE9A5B00FA2084 /* LanguageSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C8E392DBE9A5B00FA2084 /* LanguageSettingsView.swift */; };
+		9F5C8E402DBF1FEF00FA2084 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5C8E3F2DBF1FEF00FA2084 /* OpenAISwift */; };
+		9F5C8E422DBF24B500FA2084 /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C8E412DBF24B500FA2084 /* ChatBot.swift */; };
+		9F5C8E452DBF39CB00FA2084 /* Appwrite in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5C8E442DBF39CB00FA2084 /* Appwrite */; };
+		9F5C8E472DBFCA8500FA2084 /* Ai-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C8E462DBFCA8500FA2084 /* Ai-View.swift */; };
+		9F66084D2DB9A3C700F6E8FB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66084C2DB9A3C700F6E8FB /* WelcomeView.swift */; };
+		9F78F1A72DCD03F20039F7AF /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F78F1A62DCD03F20039F7AF /* NewPostView.swift */; };
+		9F78F1A92DCD043E0039F7AF /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F78F1A82DCD043E0039F7AF /* PostDetailView.swift */; };
+		9F78F1AB2DCD10C60039F7AF /* CommentaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F78F1AA2DCD10C50039F7AF /* CommentaryView.swift */; };
+		9F78F1B72DCD26CD0039F7AF /* PostModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F78F1B42DCD26CC0039F7AF /* PostModel.xcdatamodeld */; };
+		9F9A6D972DCC982500875F45 /* PostComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A6D962DCC982500875F45 /* PostComponents.swift */; };
+		9F9A6D992DCCB09D00875F45 /* GarageOwnerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A6D982DCCB09D00875F45 /* GarageOwnerHomeView.swift */; };
+		9F9C84D32DBC812B00139311 /* GarageOWnerForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C84D22DBC812B00139311 /* GarageOWnerForgotPasswordView.swift */; };
+		9F9C84DB2DBD0ACF00139311 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C84DA2DBD0ACF00139311 /* Tab.swift */; };
+		9F9C84DD2DBD0CA000139311 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C84DC2DBD0CA000139311 /* CustomTabBar.swift */; };
+		9F9C84DF2DBD0D3000139311 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C84DE2DBD0D3000139311 /* Content.swift */; };
+		9FA1A7592DCD2E6A0057EA43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1A7582DCD2E690057EA43 /* GoogleService-Info.plist */; };
+		9FA1A75B2DCD2E710057EA43 /* GenerativeAi-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FA1A75A2DCD2E710057EA43 /* GenerativeAi-info.plist */; };
+		9FA1A75D2DCD2FCA0057EA43 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A75C2DCD2FCA0057EA43 /* PostViewModel.swift */; };
+		9FA1A75F2DCD30290057EA43 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A75E2DCD30290057EA43 /* CoreDataManager.swift */; };
+		9FC8859A2DB7198E009E3DD8 /* WeelooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885992DB7198E009E3DD8 /* WeelooApp.swift */; };
+		9FC8859C2DB7198E009E3DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8859B2DB7198E009E3DD8 /* ContentView.swift */; };
+		9FC8859E2DB71991009E3DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8859D2DB71991009E3DD8 /* Assets.xcassets */; };
+		9FC885A12DB71991009E3DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC885A02DB71991009E3DD8 /* Preview Assets.xcassets */; };
+		9FC885AA2DB727CF009E3DD8 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885A92DB727CF009E3DD8 /* APIKey.swift */; };
+		9FC885BB2DB7CCC2009E3DD8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885BA2DB7CCC2009E3DD8 /* SignUpView.swift */; };
+		9FC885BD2DB7CD54009E3DD8 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885BC2DB7CD54009E3DD8 /* HomePageView.swift */; };
+		9FC885BF2DB7CEBE009E3DD8 /* LocalisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885BE2DB7CEBE009E3DD8 /* LocalisationView.swift */; };
+		9FC885C32DB7CEFC009E3DD8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885C22DB7CEFC009E3DD8 /* UserProfile.swift */; };
+		9FC885C72DB7D008009E3DD8 /* ClientMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885C62DB7D008009E3DD8 /* ClientMapView.swift */; };
+		9FC885C92DB7D027009E3DD8 /* Ai-interfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC885C82DB7D027009E3DD8 /* Ai-interfaceView.swift */; };
+		9FE48E732DBC563000F48B88 /* GarageOwnerLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE48E722DBC563000F48B88 /* GarageOwnerLoginView.swift */; };
+		9FE48E752DBC565100F48B88 /* GarageOwnerSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE48E742DBC565100F48B88 /* GarageOwnerSignUpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F041D112DBE7699009EF9BD /* UserPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostView.swift; sourceTree = "<group>"; };
+		9F041D132DBE76E7009EF9BD /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		9F041D152DBE76FF009EF9BD /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9F21CE0F2DBA0B9C00361ED6 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		9F21CE132DBA6A2100361ED6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9F21CE152DBA85A500361ED6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9F4F518E2DC0C9EE00932C0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9F5602B22DBDE12900A860B1 /* MorphingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingSymbolView.swift; sourceTree = "<group>"; };
+		9F5C8E392DBE9A5B00FA2084 /* LanguageSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettingsView.swift; sourceTree = "<group>"; };
+		9F5C8E412DBF24B500FA2084 /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		9F5C8E462DBFCA8500FA2084 /* Ai-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ai-View.swift"; sourceTree = "<group>"; };
+		9F66084C2DB9A3C700F6E8FB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9F78F1A62DCD03F20039F7AF /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		9F78F1A82DCD043E0039F7AF /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		9F78F1AA2DCD10C50039F7AF /* CommentaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaryView.swift; sourceTree = "<group>"; };
+		9F78F1B62DCD26CC0039F7AF /* PostModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostModel.xcdatamodel; sourceTree = "<group>"; };
+		9F9A6D962DCC982500875F45 /* PostComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComponents.swift; sourceTree = "<group>"; };
+		9F9A6D982DCCB09D00875F45 /* GarageOwnerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageOwnerHomeView.swift; sourceTree = "<group>"; };
+		9F9C84D22DBC812B00139311 /* GarageOWnerForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageOWnerForgotPasswordView.swift; sourceTree = "<group>"; };
+		9F9C84DA2DBD0ACF00139311 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9F9C84DC2DBD0CA000139311 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		9F9C84DE2DBD0D3000139311 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		9FA1A7582DCD2E690057EA43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FA1A75A2DCD2E710057EA43 /* GenerativeAi-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GenerativeAi-info.plist"; sourceTree = "<group>"; };
+		9FA1A75C2DCD2FCA0057EA43 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		9FA1A75E2DCD30290057EA43 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9FC885962DB7198E009E3DD8 /* Weeloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weeloo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC885992DB7198E009E3DD8 /* WeelooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeelooApp.swift; sourceTree = "<group>"; };
+		9FC8859B2DB7198E009E3DD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FC8859D2DB71991009E3DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC885A02DB71991009E3DD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FC885A92DB727CF009E3DD8 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		9FC885BA2DB7CCC2009E3DD8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9FC885BC2DB7CD54009E3DD8 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		9FC885BE2DB7CEBE009E3DD8 /* LocalisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalisationView.swift; sourceTree = "<group>"; };
+		9FC885C22DB7CEFC009E3DD8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		9FC885C62DB7D008009E3DD8 /* ClientMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMapView.swift; sourceTree = "<group>"; };
+		9FC885C82DB7D027009E3DD8 /* Ai-interfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ai-interfaceView.swift"; sourceTree = "<group>"; };
+		9FE48E722DBC563000F48B88 /* GarageOwnerLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageOwnerLoginView.swift; sourceTree = "<group>"; };
+		9FE48E742DBC565100F48B88 /* GarageOwnerSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageOwnerSignUpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC885932DB7198E009E3DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5005972DC6769600A1FB84 /* GoogleGenerativeAI in Frameworks */,
+				9F5C8E452DBF39CB00FA2084 /* Appwrite in Frameworks */,
+				9F5C8E402DBF1FEF00FA2084 /* OpenAISwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5602AF2DBDE02E00A860B1 /* ViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F21CE0F2DBA0B9C00361ED6 /* HomePageViewModel.swift */,
+				9F9C84DA2DBD0ACF00139311 /* Tab.swift */,
+				9FC885992DB7198E009E3DD8 /* WeelooApp.swift */,
+				9F9C84DE2DBD0D3000139311 /* Content.swift */,
+				9F9C84DC2DBD0CA000139311 /* CustomTabBar.swift */,
+				9F5602B22DBDE12900A860B1 /* MorphingSymbolView.swift */,
+				9F041D112DBE7699009EF9BD /* UserPostView.swift */,
+				9F5C8E392DBE9A5B00FA2084 /* LanguageSettingsView.swift */,
+				9F78F1A62DCD03F20039F7AF /* NewPostView.swift */,
+				9F78F1A82DCD043E0039F7AF /* PostDetailView.swift */,
+				9F78F1AA2DCD10C50039F7AF /* CommentaryView.swift */,
+				9FA1A75C2DCD2FCA0057EA43 /* PostViewModel.swift */,
+			);
+			path = ViewHelpers;
+			sourceTree = "<group>";
+		};
+		9F5602B02DBDE07900A860B1 /* GarageOwner */ = {
+			isa = PBXGroup;
+			children = (
+				9FE48E722DBC563000F48B88 /* GarageOwnerLoginView.swift */,
+				9FE48E742DBC565100F48B88 /* GarageOwnerSignUpView.swift */,
+				9F9C84D22DBC812B00139311 /* GarageOWnerForgotPasswordView.swift */,
+			);
+			path = GarageOwner;
+			sourceTree = "<group>";
+		};
+		9F5602B12DBDE09500A860B1 /* ClientUser */ = {
+			isa = PBXGroup;
+			children = (
+				9F21CE132DBA6A2100361ED6 /* LoginView.swift */,
+				9FC885BA2DB7CCC2009E3DD8 /* SignUpView.swift */,
+				9F21CE152DBA85A500361ED6 /* ForgotPasswordView.swift */,
+			);
+			path = ClientUser;
+			sourceTree = "<group>";
+		};
+		9F78F1B52DCD26CC0039F7AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1A7582DCD2E690057EA43 /* GoogleService-Info.plist */,
+				9FA1A75A2DCD2E710057EA43 /* GenerativeAi-info.plist */,
+				9F78F1B42DCD26CC0039F7AF /* PostModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FC8858D2DB7198E009E3DD8 = {
+			isa = PBXGroup;
+			children = (
+				9FC885982DB7198E009E3DD8 /* Weeloo */,
+				9FC885972DB7198E009E3DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC885972DB7198E009E3DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC885962DB7198E009E3DD8 /* Weeloo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC885982DB7198E009E3DD8 /* Weeloo */ = {
+			isa = PBXGroup;
+			children = (
+				9F78F1B52DCD26CC0039F7AF /* Models */,
+				9FC885AB2DB73B39009E3DD8 /* Helpers */,
+				9FC885AC2DB73B45009E3DD8 /* Views */,
+				9FC8859D2DB71991009E3DD8 /* Assets.xcassets */,
+				9FC8859F2DB71991009E3DD8 /* Preview Content */,
+			);
+			path = Weeloo;
+			sourceTree = "<group>";
+		};
+		9FC8859F2DB71991009E3DD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FC885A02DB71991009E3DD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FC885AB2DB73B39009E3DD8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F9A6D962DCC982500875F45 /* PostComponents.swift */,
+				9FC885A92DB727CF009E3DD8 /* APIKey.swift */,
+				9F5C8E412DBF24B500FA2084 /* ChatBot.swift */,
+				9FA1A75E2DCD30290057EA43 /* CoreDataManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9FC885AC2DB73B45009E3DD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F5602AF2DBDE02E00A860B1 /* ViewHelpers */,
+				9FC885B42DB7C9E7009E3DD8 /* HomeView */,
+				9FC885B02DB7C96C009E3DD8 /* GarageOwnerViews */,
+				9FC885AF2DB7C951009E3DD8 /* UserViews */,
+				9FC885AE2DB7C92B009E3DD8 /* Login&SignUpViews */,
+				9FC885AD2DB7C91B009E3DD8 /* OnBoardView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FC885AD2DB7C91B009E3DD8 /* OnBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC8859B2DB7198E009E3DD8 /* ContentView.swift */,
+				9F66084C2DB9A3C700F6E8FB /* WelcomeView.swift */,
+			);
+			path = OnBoardView;
+			sourceTree = "<group>";
+		};
+		9FC885AE2DB7C92B009E3DD8 /* Login&SignUpViews */ = {
+			isa = PBXGroup;
+			children = (
+				9F5602B12DBDE09500A860B1 /* ClientUser */,
+				9F5602B02DBDE07900A860B1 /* GarageOwner */,
+			);
+			path = "Login&SignUpViews";
+			sourceTree = "<group>";
+		};
+		9FC885AF2DB7C951009E3DD8 /* UserViews */ = {
+			isa = PBXGroup;
+			children = (
+				9FC885C62DB7D008009E3DD8 /* ClientMapView.swift */,
+				9FC885C82DB7D027009E3DD8 /* Ai-interfaceView.swift */,
+				9F041D132DBE76E7009EF9BD /* Setting.swift */,
+				9F5C8E462DBFCA8500FA2084 /* Ai-View.swift */,
+				9F4F518E2DC0C9EE00932C0A /* HomeView.swift */,
+			);
+			path = UserViews;
+			sourceTree = "<group>";
+		};
+		9FC885B02DB7C96C009E3DD8 /* GarageOwnerViews */ = {
+			isa = PBXGroup;
+			children = (
+				9FC885BE2DB7CEBE009E3DD8 /* LocalisationView.swift */,
+				9FC885C22DB7CEFC009E3DD8 /* UserProfile.swift */,
+				9F041D152DBE76FF009EF9BD /* SettingView.swift */,
+				9F9A6D982DCCB09D00875F45 /* GarageOwnerHomeView.swift */,
+			);
+			path = GarageOwnerViews;
+			sourceTree = "<group>";
+		};
+		9FC885B42DB7C9E7009E3DD8 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC885BC2DB7CD54009E3DD8 /* HomePageView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC885952DB7198E009E3DD8 /* Weeloo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC885A42DB71991009E3DD8 /* Build configuration list for PBXNativeTarget "Weeloo" */;
+			buildPhases = (
+				9FC885922DB7198E009E3DD8 /* Sources */,
+				9FC885932DB7198E009E3DD8 /* Frameworks */,
+				9FC885942DB7198E009E3DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weeloo;
+			packageProductDependencies = (
+				9F5C8E3F2DBF1FEF00FA2084 /* OpenAISwift */,
+				9F5C8E442DBF39CB00FA2084 /* Appwrite */,
+				9F5005962DC6769600A1FB84 /* GoogleGenerativeAI */,
+			);
+			productName = Weeloo;
+			productReference = 9FC885962DB7198E009E3DD8 /* Weeloo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC8858E2DB7198E009E3DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9FC885952DB7198E009E3DD8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 9FC885912DB7198E009E3DD8 /* Build configuration list for PBXProject "Weeloo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC8858D2DB7198E009E3DD8;
+			packageReferences = (
+				9F5C8E3B2DBEC4D600FA2084 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				9F5C8E3E2DBF1FEF00FA2084 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				9F5C8E432DBF39CB00FA2084 /* XCRemoteSwiftPackageReference "sdk-for-apple" */,
+			);
+			productRefGroup = 9FC885972DB7198E009E3DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC885952DB7198E009E3DD8 /* Weeloo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC885942DB7198E009E3DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC885A12DB71991009E3DD8 /* Preview Assets.xcassets in Resources */,
+				9FC8859E2DB71991009E3DD8 /* Assets.xcassets in Resources */,
+				9FA1A75B2DCD2E710057EA43 /* GenerativeAi-info.plist in Resources */,
+				9FA1A7592DCD2E6A0057EA43 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC885922DB7198E009E3DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F518F2DC0C9EE00932C0A /* HomeView.swift in Sources */,
+				9F5C8E422DBF24B500FA2084 /* ChatBot.swift in Sources */,
+				9FC885BF2DB7CEBE009E3DD8 /* LocalisationView.swift in Sources */,
+				9F9C84DF2DBD0D3000139311 /* Content.swift in Sources */,
+				9F21CE102DBA0B9C00361ED6 /* HomePageViewModel.swift in Sources */,
+				9FC8859C2DB7198E009E3DD8 /* ContentView.swift in Sources */,
+				9F041D162DBE76FF009EF9BD /* SettingView.swift in Sources */,
+				9FC885C72DB7D008009E3DD8 /* ClientMapView.swift in Sources */,
+				9F9A6D972DCC982500875F45 /* PostComponents.swift in Sources */,
+				9F78F1AB2DCD10C60039F7AF /* CommentaryView.swift in Sources */,
+				9F78F1A72DCD03F20039F7AF /* NewPostView.swift in Sources */,
+				9F9C84DD2DBD0CA000139311 /* CustomTabBar.swift in Sources */,
+				9F041D142DBE76E7009EF9BD /* Setting.swift in Sources */,
+				9FC885BB2DB7CCC2009E3DD8 /* SignUpView.swift in Sources */,
+				9F9A6D992DCCB09D00875F45 /* GarageOwnerHomeView.swift in Sources */,
+				9FC885AA2DB727CF009E3DD8 /* APIKey.swift in Sources */,
+				9F21CE142DBA6A2100361ED6 /* LoginView.swift in Sources */,
+				9F66084D2DB9A3C700F6E8FB /* WelcomeView.swift in Sources */,
+				9FC885C92DB7D027009E3DD8 /* Ai-interfaceView.swift in Sources */,
+				9F9C84DB2DBD0ACF00139311 /* Tab.swift in Sources */,
+				9FE48E732DBC563000F48B88 /* GarageOwnerLoginView.swift in Sources */,
+				9FC885BD2DB7CD54009E3DD8 /* HomePageView.swift in Sources */,
+				9FA1A75D2DCD2FCA0057EA43 /* PostViewModel.swift in Sources */,
+				9F5602B32DBDE12900A860B1 /* MorphingSymbolView.swift in Sources */,
+				9F78F1A92DCD043E0039F7AF /* PostDetailView.swift in Sources */,
+				9FC8859A2DB7198E009E3DD8 /* WeelooApp.swift in Sources */,
+				9F041D122DBE7699009EF9BD /* UserPostView.swift in Sources */,
+				9F21CE162DBA85A500361ED6 /* ForgotPasswordView.swift in Sources */,
+				9F78F1B72DCD26CD0039F7AF /* PostModel.xcdatamodeld in Sources */,
+				9F9C84D32DBC812B00139311 /* GarageOWnerForgotPasswordView.swift in Sources */,
+				9F5C8E3A2DBE9A5B00FA2084 /* LanguageSettingsView.swift in Sources */,
+				9FC885C32DB7CEFC009E3DD8 /* UserProfile.swift in Sources */,
+				9F5C8E472DBFCA8500FA2084 /* Ai-View.swift in Sources */,
+				9FA1A75F2DCD30290057EA43 /* CoreDataManager.swift in Sources */,
+				9FE48E752DBC565100F48B88 /* GarageOwnerSignUpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FC885A22DB71991009E3DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC885A32DB71991009E3DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC885A52DB71991009E3DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weeloo/Preview Content\"";
+				DEVELOPMENT_TEAM = LPSH8GVNQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weeloo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy-tech.Weeloo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_FLAGS = "-enable-experimental-feature AccessLevelOnImport";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC885A62DB71991009E3DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weeloo/Preview Content\"";
+				DEVELOPMENT_TEAM = LPSH8GVNQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weeloo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy-tech.Weeloo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_FLAGS = "-enable-experimental-feature AccessLevelOnImport";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC885912DB7198E009E3DD8 /* Build configuration list for PBXProject "Weeloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC885A22DB71991009E3DD8 /* Debug */,
+				9FC885A32DB71991009E3DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC885A42DB71991009E3DD8 /* Build configuration list for PBXNativeTarget "Weeloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC885A52DB71991009E3DD8 /* Debug */,
+				9FC885A62DB71991009E3DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F5C8E3B2DBEC4D600FA2084 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		9F5C8E3E2DBF1FEF00FA2084 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+		9F5C8E432DBF39CB00FA2084 /* XCRemoteSwiftPackageReference "sdk-for-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appwrite/sdk-for-apple";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F5005962DC6769600A1FB84 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5C8E3B2DBEC4D600FA2084 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		9F5C8E3F2DBF1FEF00FA2084 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5C8E3E2DBF1FEF00FA2084 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		9F5C8E442DBF39CB00FA2084 /* Appwrite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5C8E432DBF39CB00FA2084 /* XCRemoteSwiftPackageReference "sdk-for-apple" */;
+			productName = Appwrite;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9F78F1B42DCD26CC0039F7AF /* PostModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F78F1B62DCD26CC0039F7AF /* PostModel.xcdatamodel */,
+			);
+			currentVersion = 9F78F1B62DCD26CC0039F7AF /* PostModel.xcdatamodel */;
+			name = PostModel.xcdatamodeld;
+			path = /Users/teddy/Projects/Weeloo/Weeloo/Models/PostModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FC8858E2DB7198E009E3DD8 /* Project object */;
+}
